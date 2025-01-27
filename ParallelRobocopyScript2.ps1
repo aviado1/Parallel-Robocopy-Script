@@ -26,8 +26,8 @@ $max_jobs = 8  # Maximum number of parallel Robocopy jobs to run simultaneously.
 $threads_per_job = 32  # Number of threads per Robocopy process for faster copying.
 
 # Source and destination directories
-$src = "C:\LX\Data"  # Path to the source directory containing subdirectories to copy.
-$dest = "D:\DATA"  # Path to the destination directory where data will be copied.
+$src = "C:\Temp"  # Path to the source directory containing subdirectories to copy.
+$dest = "D:\Temp"  # Path to the destination directory where data will be copied.
 
 # Log folder for job-specific logs
 $log = "C:\\robo\\Logs"  # Directory where job-specific logs will be stored.
